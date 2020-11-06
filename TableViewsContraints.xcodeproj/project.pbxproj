@@ -15,6 +15,7 @@
 		3DB1F07F2555EA7200030D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB1F07D2555EA7200030D16 /* LaunchScreen.storyboard */; };
 		3DB1F08A2555EA7200030D16 /* TableViewsContraintsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB1F0892555EA7200030D16 /* TableViewsContraintsTests.swift */; };
 		3DB1F0952555EA7200030D16 /* TableViewsContraintsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB1F0942555EA7200030D16 /* TableViewsContraintsUITests.swift */; };
+		3DB1F0A72555F4C400030D16 /* Restaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB1F0A62555F4C400030D16 /* Restaurante.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3DB1F0902555EA7200030D16 /* TableViewsContraintsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewsContraintsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB1F0942555EA7200030D16 /* TableViewsContraintsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewsContraintsUITests.swift; sourceTree = "<group>"; };
 		3DB1F0962555EA7200030D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB1F0A62555F4C400030D16 /* Restaurante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurante.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,12 @@
 		3DB1F0712555EA6B00030D16 /* TableViewsContraints */ = {
 			isa = PBXGroup;
 			children = (
+				3DB1F0A52555F49000030D16 /* Models */,
+				3DB1F0A42555F47200030D16 /* Controllers */,
+				3DB1F0A22555F41100030D16 /* Storyboards */,
 				3DB1F0722555EA6B00030D16 /* AppDelegate.swift */,
 				3DB1F0742555EA6B00030D16 /* SceneDelegate.swift */,
-				3DB1F0762555EA6B00030D16 /* ViewController.swift */,
-				3DB1F0782555EA6B00030D16 /* Main.storyboard */,
 				3DB1F07B2555EA7200030D16 /* Assets.xcassets */,
-				3DB1F07D2555EA7200030D16 /* LaunchScreen.storyboard */,
 				3DB1F0802555EA7200030D16 /* Info.plist */,
 			);
 			path = TableViewsContraints;
@@ -126,6 +128,31 @@
 				3DB1F0962555EA7200030D16 /* Info.plist */,
 			);
 			path = TableViewsContraintsUITests;
+			sourceTree = "<group>";
+		};
+		3DB1F0A22555F41100030D16 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3DB1F0782555EA6B00030D16 /* Main.storyboard */,
+				3DB1F07D2555EA7200030D16 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		3DB1F0A42555F47200030D16 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DB1F0762555EA6B00030D16 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3DB1F0A52555F49000030D16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DB1F0A62555F4C400030D16 /* Restaurante.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +288,7 @@
 			files = (
 				3DB1F0772555EA6B00030D16 /* ViewController.swift in Sources */,
 				3DB1F0732555EA6B00030D16 /* AppDelegate.swift in Sources */,
+				3DB1F0A72555F4C400030D16 /* Restaurante.swift in Sources */,
 				3DB1F0752555EA6B00030D16 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
